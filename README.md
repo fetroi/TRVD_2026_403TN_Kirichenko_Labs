@@ -37,3 +37,15 @@
 ```env
 VITE_SUPABASE_URL=https://qiqulmeabyftyztlzzbu.supabase.co
 VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFpcXVsbWVhYnlmdHl6dGx6emJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ2Mjg3OTAsImV4cCI6MjA5MDIwNDc5MH0.4FO_ijDA4V0CTr_iDwQFdEdZiCikxNbCcKsT54JxCdc
+
+Перейдіть у потрібну папку проєкту:
+
+cd football-hub-connect/frontend
+
+Встановіть залежності:
+
+npm install
+
+Запустіть локальний сервер:
+
+npm run dev
