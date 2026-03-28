@@ -1,16 +1,46 @@
-# React + Vite
+TRVD_2026_403-ТН_Kirichenko_Labs
+Лабораторні роботи 1-5 з дисципліни TRVD (вебпроєкт FootballHub).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Дані студента
+ПІБ: (Кириченко Сергій Васильович)
+Група: (403ТН)
 
-Currently, two official plugins are available:
+Репозиторій
+([https://github.com/fetroi/TRVD_2026_403TN_Kirichenko_Labs])
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Демо відео (ЛР5)
+([https://youtu.be/yRMgEhQp0MA])
 
-## React Compiler
+Структура проєкту
+lab1/Звіт.md — Аналіз предметної області: керування футбольним складом.
+lab1/Контрольні_питання.md
+lab2/Звіт.md — Проєктування бази даних (ER-модель таблиці players).
+lab2/Контрольні_питання.md
+lab3/Звіт.md — Підключення до Supabase та налаштування таблиць.
+lab3/Контрольні_питання.md
+lab4/Звіт.md — Автентифікація користувачів та політики безпеки RLS (Row Level Security).
+lab4/Контрольні_питання.md
+lab5/Звіт.md — Клієнтська частина: Dashboard, фільтрація гравців та анімації.
+lab5/Контрольні_питання.md
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+frontend/ — React додаток (Vite).
+frontend/src/api/supabase.js — Конфігурація зв'язку з базою даних.
 
-## Expanding the ESLint configuration
+Швидкий запуск
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Налаштування середовища
+Створи файл .env у папці frontend/ та додай свої ключі:
+
+Фрагмент кода
+
+VITE_SUPABASE_URL=url_з_supabase
+VITE_SUPABASE_ANON_KEY=ключ_з_supabase
+2. Запуск Front-end
+Bash
+
+# Перейти у правильну папку проєкту
+cd football-hub-connect/frontend 
+# Встановити залежності
+npm install
+# Запустити локальний сервер
+npm run dev
